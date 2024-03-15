@@ -1,0 +1,84 @@
+.App {
+  color: bisque;
+  font-family: monospace;
+  display: flex;
+  background-image: url(/public/stacked-peaks-haikei.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.side-container,
+.chatbot-container {}
+
+.side-container {
+  justify-content: center;
+  padding: 2em;
+  padding-left: 3em;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+}
+
+.hero {
+  width: 70%;
+}
+
+.chatbot-container {
+  padding: 20px;
+  width: 40vw;
+  max-height: 90vh;
+  justify-content: flex-end;
+  display: flex;
+  border: 2px solid;
+  flex-direction: column;
+}
+
+.messages-container {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+}
+
+.query {
+  width: 95%;
+  height: 30px;
+  padding-left: 5%;
+  background-color: rgba(237, 203, 159, 0.224);
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid burlywood;
+}
+
+.message-container {
+  background-color: rgba(222, 184, 135, 0.224);
+  border: 1px solid burlywood;
+  border-radius: 15px;
+  padding: 5px;
+  word-wrap: break-word;
+  max-width: 50%;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
