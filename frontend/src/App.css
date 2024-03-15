@@ -8,6 +8,10 @@
   background-size: cover;
   height: 100vh;
 }
+.logo{
+  padding-left: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .side-container,
 .chatbot-container {}

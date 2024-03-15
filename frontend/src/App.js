@@ -33,9 +33,10 @@ function App() {
 
   return (
     <div className="App">
+        <h1 className='logo'>NEO</h1>
       <div className="side-container">
         <h1 className="hero">Chatbot for Student Assistance</h1>
-        <p className="content">Say Hi to Jessie. Our very own personel assistant who is here to answer all your questions. </p>
+        <p className="content">Say Hi to Neo. Our very own personel assistant who is here to answer all your questions. </p>
       </div>
       <div className="chatbot-container">
         <div className="messages-container" ref={messagesEndRef}>
