@@ -66,7 +66,7 @@
       "who designed you"
    ],
    "responses": [
-      "College students"
+      "Sri Kumar, Gunavardhan, Kenny Joel"
    ],
    "context_set": ""
 },
@@ -88,9 +88,9 @@
       "what are you"
    ],
    "responses": [
-      "You can call me Mind Reader.",
-      "I'm Mind Reader",
-      "I am a Chatbot.",
+      "You can call me Neo The one.",
+      "I'm Neo",
+      "I am the one.",
       "I am your helper"
    ],
    "context_set": ""
@@ -141,7 +141,7 @@
       "call"
    ],
    "responses": [
-      "You can contact at: NUMBER"
+      "You can contact at: +91-9573803580"
    ],
    "context_set": ""
 },
@@ -209,7 +209,7 @@
       "fees for non-Ac room for boys"
    ],
    "responses": [
-      "For Fee detail visit <a target=\"_blank\" href=\"LINK\"> here</a>"
+      "For Fee detail visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
    ],
    "context_set": ""
 },
@@ -232,7 +232,7 @@
       "location"
    ],
    "responses": [
-      "<a target=\"_blank\" href=\"ADD YOU GOOGLE MAP LINK HERE\"> here</a>"
+      "<a target=\"_blank\" href=\"https://maps.app.goo.gl/uano3SPKd2TwSFna6\"> here</a>"
    ],
    "context_set": ""
 },
@@ -263,7 +263,7 @@
       "distance between hostel and college"
    ],
    "responses": [
-      "For hostel detail visit <a target=\"_blank\" href=\"ADD YOUR HOSTEL DETAIL PDF LINK OR ANY INFORMATION LINK OR ADD YOU OWN ANSWERS\"> here</a>"
+      "For hostel detail visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
    ],
    "context_set": ""
 },
@@ -283,7 +283,7 @@
       "what about events"
    ],
    "responses": [
-      "For event detail visit <a target=\"_blank\" href=\"ADD YOUR FUNCTIONS LINK OR YOUR OWN RESPONSE\"> here</a>"
+      "For event detail visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
    ],
    "context_set": ""
 },
@@ -305,7 +305,7 @@
       "documents needed"
    ],
    "responses": [
-      "To know more about document required visit <a target=\"_blank\" href=\"ADD LINK OF ADMISSION GUIDANCE DOCUMENT FROM YOUR UNIVERSITY WEBSITE\"> here</a>"
+      "To know more about document required visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
    ],
    "context_set": ""
 },
@@ -337,7 +337,7 @@
       "What is next lecture"
    ],
    "responses": [
-      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"TIMETABLE LINK\"> here</a>"
+      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
    ],
    "context_set": ""
 },
@@ -360,7 +360,7 @@
       "how many libraries"
    ],
    "responses": [
-      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"ADD LIBRARY DETAIL LINK\">here</a>"
+      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"https://woxsen.edu.in/\">here</a>"
    ],
    "context_set": ""
 },
@@ -426,7 +426,7 @@
       "companies"
    ],
    "responses": [
-      "To know about placement visit <a target=\"_blank\" href=\"PLACEMENT INFORMATION LINK FROM YOUR UNIVERSITY WEBSITE IF THEY HAVE\">here</a>"
+      "To know about placement visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\">here</a>"
    ],
    "context_set": ""
 },
@@ -501,7 +501,7 @@
       "when is semester"
    ],
    "responses": [
-      "Here is the Academic Calendar  <a target=\"_blank\" href=\"YOUR ACADEMIC CALENDER\">website</a>"
+      "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://woxsen.edu.in/\">website</a>"
    ],
    "context_set": ""
 },
@@ -516,7 +516,7 @@
       "admission process"
    ],
    "responses": [
-      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"LINK OF ADMISSION DOCUMENT\">website</a>"
+      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://woxsen.edu.in/\">website</a>"
    ],
    "context_set": ""
 },
@@ -551,7 +551,7 @@
       "fourth year scholarship"
    ],
    "responses": [
-      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"(SCHOLARSHIP DETAILS LINK)\">here</a>"
+      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\">here</a>"
    ],
    "context_set": ""
 },
@@ -684,7 +684,7 @@
       "please provide sports and games information"
    ],
    "responses": [
-      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"(LINK IF HAVE)\">here</a>"
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://woxsen.edu.in/\">here</a>"
    ],
    "context_set": ""
 },

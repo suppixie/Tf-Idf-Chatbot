@@ -6,8 +6,8 @@ import axios from 'axios'
 function App() {
 
   const [queryResults, setQueryResults] = useState([{
-    "question": "Who are you?",
-    "answer": "I am Jessie"
+    "question": "Hi",
+    "answer": "Hello! How may I help you?"
   }])
   const [query, setQuery] = useState("")
   const messagesEndRef = useRef(null);
@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <div className="side-container">
-        <h1 className="hero">Chatbots for Student Assistance</h1>
+        <h1 className="hero">Chatbot for Student Assistance</h1>
         <p className="content">Say Hi to Jessie. Our very own personel assistant who is here to answer all your questions. </p>
       </div>
       <div className="chatbot-container">
