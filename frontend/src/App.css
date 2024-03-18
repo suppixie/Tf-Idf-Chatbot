@@ -13,8 +13,21 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.side-container,
-.chatbot-container {}
+.btn{
+  width: fit-content;
+  padding: 0.5rem;
+  background-color: transparent;
+  color: burlywood;
+  outline: none;
+  border:1px solid burlywood;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: burlywood;
+  color: black;
+}
 
 .side-container {
   justify-content: center;
@@ -58,6 +71,7 @@
 }
 
 .message-container {
+  
   background-color: rgba(222, 184, 135, 0.224);
   border: 1px solid burlywood;
   border-radius: 15px;

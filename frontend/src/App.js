@@ -10,6 +10,7 @@ function App() {
     "answer": "Hello! How may I help you?"
   }])
   const [query, setQuery] = useState("")
+  const [enabled, setEnabled] = useState(false)
   const messagesEndRef = useRef(null);
 
 
@@ -24,19 +25,25 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios.get(`http://localhost:8000/query?query=${query}`).then(
-      res => (setQueryResults([...queryResults, { "question": query, "answer": res.data}]))
+    axios.get(`http://localhost:8000/${enabled ? "query_gpt" : "query"}?query=${query}`).then(
+      res => (setQueryResults([...queryResults, { "question": query, "answer": res.data }]))
     )
-    
+
     setQuery('')
   }
-
+  const enableGPT = () => {
+    setEnabled(true)
+    alert("Genrative AI enabled!");
+  }
   return (
     <div className="App">
-        <h1 className='logo'>NEO</h1>
+      <h1 className='logo'>NEO</h1>
+      {enabled?<h3>enabled</h3>:<></>}
       <div className="side-container">
         <h1 className="hero">Chatbot for Student Assistance</h1>
         <p className="content">Say Hi to Neo. Our very own personel assistant who is here to answer all your questions. </p>
+        <button className="btn" onClick={e => (enableGPT(e))}>Enable GPT</button>
+        <button className="btn" onClick={e => (setEnabled(false))}>Disable GPT</button>
       </div>
       <div className="chatbot-container">
         <div className="messages-container" ref={messagesEndRef}>
@@ -45,15 +52,15 @@ function App() {
               <>
                 <>
                   <Avatar style={{ "alignSelf": "flex-end" }} round={true} size="27" facebook-id="invalidfacebookusername" src="https://wallpapers-clan.com/wp-content/uploads/2022/08/default-pfp-18.jpg" />
-                <div className="message-container" style={{ "alignSelf": "flex-end" }}>
-                  {res.question}
-                </div>
+                  <div className="message-container" style={{ "alignSelf": "flex-end" }}>
+                    {res.question}
+                  </div>
                 </>
                 <>
                   <Avatar round={true} size="27" facebook-id="invalidfacebookusername" src="https://i.pinimg.com/564x/61/19/a9/6119a94aeaa05675168ef4941b4b739b.jpg" />
-                <div className="message-container">
-                  {res.answer}
-                </div>
+                  <div className="message-container">
+                    {res.answer}
+                  </div>
                 </>
               </>
             )
@@ -61,7 +68,7 @@ function App() {
           }
         </div>
         <form action="#" onSubmit={e => handleSubmit(e)}>
-          <input type="text" required className='query' value={query} onChange={e => setQuery(e.target.value)} />
+          <input type="text" required className='query' style={{ color: "white" }} value={query} onChange={e => setQuery(e.target.value)} />
         </form>
       </div>
     </div>
