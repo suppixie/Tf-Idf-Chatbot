@@ -1,14 +1,20 @@
 .App {
-  color: bisque;
+  color: black;
   font-family: monospace;
-  display: flex;
-  background-image: url(/public/stacked-peaks-haikei.png);
+  display:block;
+  background-color:rgb(204, 230, 250);
+  /* background-image: url(/public/stacked-peaks-haikei.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+  padding: 1vw;
+}
+.full-container{
+  display: flex;
 }
 .logo{
+  margin: 0;
   padding-left: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -16,16 +22,16 @@
 .btn{
   width: fit-content;
   padding: 0.5rem;
-  background-color: transparent;
-  color: burlywood;
+  background-color: white;
+  color: black;
   outline: none;
-  border:1px solid burlywood;
+  border:1px solid aquamarine;
   border-radius: 5px;
   margin-top: 15px;
 }
 .btn:hover{
   cursor: pointer;
-  background-color: burlywood;
+  background-color: aquamarine;
   color: black;
 }
 
@@ -39,19 +45,43 @@
 }
 
 .hero {
-  width: 70%;
+  width: 80%;
 }
+.save-btn{
+  width: 40%;
+  margin-top: 2vh;
+  border-radius: 20px;
+  padding: 1vh;
+  background-color: aquamarine;
+}
+.conversation-btn{
+  border-radius: 20px;
+  padding: 2vh;
+  background-color: aquamarine;
+  margin-bottom: 1vh;
+  cursor: pointer;
 
+}
+.saved-conversations{
+  margin-left: 1vw;
+  display: block;
+  width: 25vw;
+}
 .chatbot-container {
+  border-radius: 25px;
   padding: 20px;
-  width: 40vw;
+  width: 150vw;
+  height: 80vh;
   max-height: 90vh;
   justify-content: flex-end;
   display: flex;
   border: 2px solid;
   flex-direction: column;
+  color: black;
 }
-
+.input{
+  color: black;
+}
 .messages-container {
   overflow-y: auto;
   display: flex;
@@ -64,17 +94,19 @@
   width: 95%;
   height: 30px;
   padding-left: 5%;
-  background-color: rgba(237, 203, 159, 0.224);
+  /* background-color: rgba(237, 203, 159, 0.224); */
+  background-color: aliceblue;
   border-radius: 5px;
   outline: none;
-  border: 1px solid burlywood;
+  border: 1px solid darkblue;
 }
 
 .message-container {
-  
-  background-color: rgba(222, 184, 135, 0.224);
-  border: 1px solid burlywood;
+  background-color: aliceblue;
+  /* background-color: rgba(222, 184, 135, 0.224); */
+  border: 1px solid darkblue;
   border-radius: 15px;
+  color: black;
   padding: 5px;
   word-wrap: break-word;
   max-width: 50%;

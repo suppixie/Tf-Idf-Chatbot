@@ -1,762 +1,262 @@
-{
-   "intents":[
- {
-   "tag": "greeting",
-   "patterns": [
-      "Hi",
-      "How are you?",
-      "Is anyone there?",
-      "Hello",
-      "Good day",
-      "What's up",
-      "how are ya",
-      "heyy",
-      "whatsup",
-      "??? ??? ??"
-   ],
-   "responses": [
-      "Hello!",
-      "Good to see you again!",
-      "Hi there, how can I help?"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "goodbye",
-   "patterns": [
-      "cya",
-      "see you",
-      "bye bye",
-      "See you later",
-      "Goodbye",
-      "I am Leaving",
-      "Bye",
-      "Have a Good day",
-      "talk to you later",
-      "ttyl",
-      "i got to go",
-      "gtg"
-   ],
-   "responses": [
-      "Sad to see you go :(",
-      "Talk to you later",
-      "Goodbye!",
-      "Come back soon"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "creator",
-   "patterns": [
-      "what is the name of your developers",
-      "what is the name of your creators",
-      "what is the name of the developers",
-      "what is the name of the creators",
-      "who created you",
-      "your developers",
-      "your creators",
-      "who are your developers",
-      "developers",
-      "you are made by",
-      "you are made by whom",
-      "who created you",
-      "who create you",
-      "creators",
-      "who made you",
-      "who designed you"
-   ],
-   "responses": [
-      "Sri Kumar, Gunavardhan, Kenny Joel"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "name",
-   "patterns": [
-      "name",
-      "your name",
-      "do you have a name",
-      "what are you called",
-      "what is your name",
-      "what should I call you",
-      "whats your name?",
-      "what are you",
-      "who are you",
-      "who is this",
-      "what am i chatting to",
-      "who am i taking to",
-      "what are you"
-   ],
-   "responses": [
-      "You can call me Neo The one.",
-      "I'm Neo",
-      "I am the one.",
-      "I am your helper"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "hours",
-   "patterns": [
-      "timing of college",
-      "what is college timing",
-      "working days",
-      "when are you guys open",
-      "what are your hours",
-      "hours of operation",
-      "when is the college open",
-      "college timing",
-      "what about college timing",
-      "is college open on saturday",
-      "tell something about college timing",
-      "what is the college  hours",
-      "when should i come to college",
-      "when should i attend college",
-      "what is my college time",
-      "college timing",
-      "timing college"
-   ],
-   "responses": [
-      "College is open 8am-5pm Monday-Saturday!"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "number",
-   "patterns": [
-      "more info",
-      "contact info",
-      "how to contact college",
-      "college telephone number",
-      "college number",
-      "What is your contact no",
-      "Contact number?",
-      "how to call you",
-      "College phone no?",
-      "how can i contact you",
-      "Can i get your phone number",
-      "how can i call you",
-      "phone number",
-      "phone no",
-      "call"
-   ],
-   "responses": [
-      "You can contact at: +91-9573803580"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "course",
-   "patterns": [
-      "list of courses",
-      "list of courses offered",
-      "list of courses offered in",
-      "what are the courses offered in your college?",
-      "courses?",
-      "courses offered",
-      "courses offered in (your univrsity(UNI) name)",
-      "courses you offer",
-      "branches?",
-      "courses available at UNI?",
-      "branches available at your college?",
-      "what are the courses in UNI?",
-      "what are branches in UNI?",
-      "what are courses in UNI?",
-      "branches available in UNI?",
-      "can you tell me the courses available in UNI?",
-      "can you tell me the branches available in UNI?",
-      "computer engineering?",
-      "computer",
-      "Computer engineering?",
-      "it",
-      "IT",
-      "Information Technology",
-      "AI/Ml",
-      "Mechanical engineering",
-      "Chemical engineering",
-      "Civil engineering"
-   ],
-   "responses": [
-      "Our university offers Information Technology, computer Engineering, Mechanical engineering,Chemical engineering, Civil engineering and extc Engineering."
-   ],
-   "context_set": ""
-},
- {
-   "tag": "fees",
-   "patterns": [
-      "information about fee",
-      "information on fee",
-      "tell me the fee",
-      "college fee",
-      "fee per semester",
-      "what is the fee of each semester",
-      "what is the fees of each year",
-      "what is fee",
-      "what is the fees",
-      "how much is the fees",
-      "fees for first year",
-      "fees",
-      "about the fees",
-      "tell me something about the fees",
-      "What is the fees of hostel",
-      "how much is the fees",
-      "hostel fees",
-      "fees for AC room",
-      "fees for non-AC room",
-      "fees for Ac room for girls",
-      "fees for non-Ac room for girls",
-      "fees for Ac room for boys",
-      "fees for non-Ac room for boys"
-   ],
-   "responses": [
-      "For Fee detail visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "location",
-   "patterns": [
-      "where is the college located",
-      "college is located at",
-      "where is college",
-      "where is college located",
-      "address of college",
-      "how to reach college",
-      "college location",
-      "college address",
-      "wheres the college",
-      "how can I reach college",
-      "whats is the college address",
-      "what is the address of college",
-      "address",
-      "location"
-   ],
-   "responses": [
-      "<a target=\"_blank\" href=\"https://maps.app.goo.gl/uano3SPKd2TwSFna6\"> here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "hostel",
-   "patterns": [
-      "hostel facility",
-      "hostel servive",
-      "hostel location",
-      "hostel address",
-      "hostel facilities",
-      "hostel fees",
-      "Does college provide hostel",
-      "Is there any hostel",
-      "Where is hostel",
-      "do you have hostel",
-      "do you guys have hostel",
-      "hostel",
-      "hostel capacity",
-      "what is the hostel fee",
-      "how to get in hostel",
-      "what is the hostel address",
-      "how far is hostel from college",
-      "hostel college distance",
-      "where is the hostel",
-      "how big is the hostel",
-      "distance between college and hostel",
-      "distance between hostel and college"
-   ],
-   "responses": [
-      "For hostel detail visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "event",
-   "patterns": [
-      "events organised",
-      "list of events",
-      "list of events organised in college",
-      "list of events conducted in college",
-      "What events are conducted in college",
-      "Are there any event held at college",
-      "Events?",
-      "functions",
-      "what are the events",
-      "tell me about events",
-      "what about events"
-   ],
-   "responses": [
-      "For event detail visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "document",
-   "patterns": [
-      "document to bring",
-      "documents needed for admision",
-      "documents needed at the time of admission",
-      "documents needed during admission",
-      "documents required for admision",
-      "documents required at the time of admission",
-      "documents required during admission",
-      "What document are required for admission",
-      "Which document to bring for admission",
-      "documents",
-      "what documents do i need",
-      "what documents do I need for admission",
-      "documents needed"
-   ],
-   "responses": [
-      "To know more about document required visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "floors",
-   "patterns": [
-      "size of campus",
-      "building size",
-      "How many floors does college have",
-      "floors in college",
-      "floors in college",
-      "how tall is UNI's College of Engineering college building",
-      "floors"
-   ],
-   "responses": [
-      "My College has total 2 floors "
-   ],
-   "context_set": ""
-},
- {
-   "tag": "syllabus",
-   "patterns": [
-      "Syllabus for IT",
-      "what is the Information Technology syllabus",
-      "syllabus",
-      "timetable",
-      "what is IT syllabus",
-      "syllabus",
-      "What is next lecture"
-   ],
-   "responses": [
-      "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\"> here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "library",
-   "patterns": [
-      "is there any library",
-      "library facility",
-      "library facilities",
-      "do you have library",
-      "does the college have library facility",
-      "college library",
-      "where can i get books",
-      "book facility",
-      "Where is library",
-      "Library",
-      "Library information",
-      "Library books information",
-      "Tell me about library",
-      "how many libraries"
-   ],
-   "responses": [
-      "There is one huge and spacious library.timings are 8am to 6pm and for more visit <a target=\"blank\" href=\"https://woxsen.edu.in/\">here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "infrastructure",
-   "patterns": [
-      "how is college infrastructure",
-      "infrastructure",
-      "college infrastructure"
-   ],
-   "responses": [
-      "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "canteen",
-   "patterns": [
-      "food facilities",
-      "canteen facilities",
-      "canteen facility",
-      "is there any canteen",
-      "Is there a cafetaria in college",
-      "Does college have canteen",
-      "Where is canteen",
-      "where is cafetaria",
-      "canteen",
-      "Food",
-      "Cafetaria"
-   ],
-   "responses": [
-      "Our university has canteen with variety of food available"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "menu",
-   "patterns": [
-      "food menu",
-      "food in canteen",
-      "Whats there on menu",
-      "what is available in college canteen",
-      "what foods can we get in college canteen",
-      "food variety",
-      "What is there to eat?"
-   ],
-   "responses": [
-      "we serve Franky, Locho, Alu-puri, Kachori, Khavsa, Thaali and many more on menu"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "placement",
-   "patterns": [
-      "What is college placement",
-      "Which companies visit in college",
-      "What is average package",
-      "companies visit",
-      "package",
-      "About placement",
-      "placement",
-      "recruitment",
-      "companies"
-   ],
-   "responses": [
-      "To know about placement visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\">here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "ithod",
-   "patterns": [
-      "Who is HOD",
-      "Where is HOD",
-      "it hod",
-      "name of it hod"
-   ],
-   "responses": [
-      "All engineering departments have only one hod XYZ who available on (Place name)"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "computerhod",
-   "patterns": [
-      "Who is computer HOD",
-      "Where is computer HOD",
-      "computer hod",
-      "name of computer hod"
-   ],
-   "responses": [
-      "All engineering departments have only one hod XYZ who available on (PLACE NAME)"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "extchod",
-   "patterns": [
-      "Who is extc HOD",
-      "Where is  extc HOD",
-      "extc hod",
-      "name of extc hod"
-   ],
-   "responses": [
-      "Different school wise hod are different.So be more clear with your school or department"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "principal",
-   "patterns": [
-      "what is the name of principal",
-      "whatv is the principal name",
-      "principal name",
-      "Who is college principal",
-      "Where is principal's office",
-      "principal",
-      "name of principal"
-   ],
-   "responses": [
-      "XYZ is college principal and if you need any help then call your branch hod first.That is more appropriate"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "sem",
-   "patterns": [
-      "exam dates",
-      "exam schedule",
-      "When is semester exam",
-      "Semester exam timetable",
-      "sem",
-      "semester",
-      "exam",
-      "when is exam",
-      "exam timetable",
-      "exam dates",
-      "when is semester"
-   ],
-   "responses": [
-      "Here is the Academic Calendar  <a target=\"_blank\" href=\"https://woxsen.edu.in/\">website</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "admission",
-   "patterns": [
-      "what is the process of admission",
-      "what is the admission process",
-      "How to take admission in your college",
-      "What is the process for admission",
-      "admission",
-      "admission process"
-   ],
-   "responses": [
-      "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://woxsen.edu.in/\">website</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "scholarship",
-   "patterns": [
-      "scholarship",
-      "Is scholarship available",
-      "scholarship engineering",
-      "scholarship it",
-      "scholarship ce",
-      "scholarship mechanical",
-      "scholarship civil",
-      "scholarship chemical",
-      "scholarship for AI/ML",
-      "available scholarships",
-      "scholarship for computer engineering",
-      "scholarship for IT engineering",
-      "scholarship for mechanical engineering",
-      "scholarship for civil engineering",
-      "scholarship for chemical engineering",
-      "list of scholarship",
-      "comps scholarship",
-      "IT scholarship",
-      "mechanical scholarship",
-      "civil scholarship",
-      "chemical scholarship",
-      "automobile scholarship",
-      "first year scholarship",
-      "second year scholarship",
-      "third year scholarship",
-      "fourth year scholarship"
-   ],
-   "responses": [
-      "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"https://woxsen.edu.in/\">here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "facilities",
-   "patterns": [
-      "What facilities college provide",
-      "College facility",
-      "What are college facilities",
-      "facilities",
-      "facilities provided"
-   ],
-   "responses": [
-      "Our university's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "college intake",
-   "patterns": [
-      "max number of students",
-      "number of seats per branch",
-      "number of seats in each branch",
-      "maximum number of seats",
-      "maximum students intake",
-      "What is college intake",
-      "how many stundent are taken in each branch",
-      "seat allotment",
-      "seats"
-   ],
-   "responses": [
-      "For IT, Computer and extc 60 per branch and seat may be differ for different department."
-   ],
-   "context_set": ""
-},
- {
-   "tag": "uniform",
-   "patterns": [
-      "college dress code",
-      "college dresscode",
-      "what is the uniform",
-      "can we wear casuals",
-      "Does college have an uniform",
-      "Is there any uniform",
-      "uniform",
-      "what about uniform",
-      "do we have to wear uniform"
-   ],
-   "responses": [
-      "ENTER YOUR OWN UNIVERSITY UNIFORM CIRCULER"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "committee",
-   "patterns": [
-      "what are the different committe in college",
-      "different committee in college",
-      "Are there any committee in college",
-      "Give me committee details",
-      "committee",
-      "how many committee are there in college"
-   ],
-   "responses": [
-      "For the various committe in college contact this number: ADD NUMBER"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "random",
-   "patterns": [
-      "I love you",
-      "Will you marry me",
-      "Do you love me"
-   ],
-   "responses": [
-      "I am not program for this, please ask appropriate query"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "swear",
-   "patterns": [
-      "fuck",
-      "bitch",
-      "shut up",
-      "hell",
-      "stupid",
-      "idiot",
-      "dumb ass",
-      "asshole",
-      "fucker"
-   ],
-   "responses": [
-      "please use appropriate language",
-      "Maintaining decency would be appreciated"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "vacation",
-   "patterns": [
-      "holidays",
-      "when will semester starts",
-      "when will semester end",
-      "when is the holidays",
-      "list of holidays",
-      "Holiday in these year",
-      "holiday list",
-      "about vacations",
-      "about holidays",
-      "When is vacation",
-      "When is holidays",
-      "how long will be the vacation"
-   ],
-   "responses": [
-      "Academic calender is given to you by your class-soordinators after you join your respective classes"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "sports",
-   "patterns": [
-      "sports and games",
-      "give sports details",
-      "sports infrastructure",
-      "sports facilities",
-      "information about sports",
-      "Sports activities",
-      "please provide sports and games information"
-   ],
-   "responses": [
-      "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://woxsen.edu.in/\">here</a>"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "salutaion",
-   "patterns": [
-      "okk",
-      "okie",
-      "nice work",
-      "well done",
-      "good job",
-      "thanks for the help",
-      "Thank You",
-      "its ok",
-      "Thanks",
-      "Good work",
-      "k",
-      "ok",
-      "okay"
-   ],
-   "responses": [
-      "I am glad I helped you",
-      "welcome, anything else i can assist you with?"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "task",
-   "patterns": [
-      "what can you do",
-      "what are the thing you can do",
-      "things you can do",
-      "what can u do for me",
-      "how u can help me",
-      "why i should use you"
-   ],
-   "responses": [
-      "I can answer to low-intermediate questions regarding college",
-      "You can ask me questions regarding college, and i will try to answer them"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "ragging",
-   "patterns": [
-      "ragging",
-      "is ragging practice active in college",
-      "does college have any antiragging facility",
-      "is there any ragging cases",
-      "is ragging done here",
-      "ragging against",
-      "antiragging facility",
-      "ragging juniors",
-      "ragging history",
-      "ragging incidents"
-   ],
-   "responses": [
-      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
-   ],
-   "context_set": ""
-},
- {
-   "tag": "hod",
-   "patterns": [
-      "hod",
-      "hod name",
-      "who is the hod"
-   ],
-   "responses": [
-      "HODs differ for each branch, please be more specific like: (HOD it)"
-   ],
-   "context_set": ""
-}
-]
-}
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+     "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+    },
+    {"tag": "morning",
+        "patterns": ["Good morning"],
+        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
+    },
+    {"tag": "afternoon",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
+    },
+    {"tag": "evening",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How has your day been?"]
+    },
+    {"tag": "night",
+        "patterns": ["Good night"],
+        "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+     "responses": ["Are you satisfied with your care?"]
+    },
+    {
+        "tag": "adhd",
+        "patterns": ["ADHD","adhd",  "I have ADHD",
+          "What is ADHD?","Can you explain ADHD?","Tell me about ADHD","I want to learn about ADHD","What does ADHD mean?","ADHD definition"],
+        "responses": [
+          "ADHD stands for Attention Deficit Hyperactivity Disorder. It is a neurodevelopmental disorder characterized by difficulty in sustaining attention, impulsive behavior, and excessive activity or restlessness.",
+          "ADHD is a condition that affects the brain's ability to focus and control impulses. It is typically diagnosed in childhood and can persist into adulthood. Common symptoms include inattention, hyperactivity, and impulsivity.",
+          "ADHD is a neurodevelopmental disorder that affects both children and adults. It can manifest as difficulty in paying attention, impulsivity, and hyperactivity. Treatment often involves a combination of medication, therapy, and lifestyle changes."
+        ]
+      },
+      {
+        "tag": "adhd symptoms",
+        "patterns": [
+          "What are the symptoms of ADHD?",
+          "List ADHD symptoms",
+          "Common ADHD symptoms",
+          "Signs of ADHD",
+          "ADHD symptoms"
+        ],
+        "responses": [
+          "Common symptoms of ADHD include inattention, hyperactivity, and impulsivity. Inattention may manifest as difficulty focusing or following instructions. Hyperactivity may involve excessive fidgeting or restlessness. Impulsivity can lead to hasty decision-making or interrupting others.",
+          "ADHD symptoms can vary but often include trouble paying attention, being easily distracted, impulsivity, and hyperactivity. These symptoms can impact daily life and functioning, but with proper treatment and support, individuals with ADHD can thrive."
+        ]
+      },
+      {
+        "tag": "adhd diagnosis",
+        "patterns": [
+          "How is ADHD diagnosed?",
+          "Diagnosing ADHD",
+          "ADHD assessment process",
+          "Getting diagnosed with ADHD"
+        ],
+        "responses": [
+          "ADHD is typically diagnosed by a healthcare professional, such as a psychiatrist or psychologist, who will conduct a thorough evaluation. This may involve gathering information from multiple sources, including the individual, parents, teachers, and other caregivers. The assessment may include interviews, questionnaires, observation, and possibly psychological testing.",
+          "Diagnosing ADHD involves a comprehensive evaluation to assess symptoms, rule out other possible causes, and determine the appropriate diagnosis and treatment plan. It's important to seek evaluation and diagnosis from a qualified healthcare provider."
+        ]
+      },
+      {
+        "tag": "adhd management",
+        "patterns": [
+          "How is ADHD managed?",
+          "ADHD treatment options",
+          "Managing ADHD symptoms",
+          "ADHD coping strategies"
+        ],
+        "responses": [
+          "ADHD management typically involves a combination of strategies, including medication, therapy, and lifestyle changes. Medications such as stimulants or non-stimulants may help improve attention and impulse control. Behavioral therapy, including cognitive-behavioral therapy (CBT) and social skills training, can teach coping skills and improve functioning. Additionally, creating structure, setting routines, and providing support and accommodations can also be beneficial.",
+          "There are various treatment options available for managing ADHD symptoms. These may include medication, behavioral therapy, educational support, and lifestyle modifications. It's important to work with a healthcare professional to develop a personalized treatment plan that addresses your specific needs and goals."
+        ]
+      },
+      {
+        "tag": "adhd coping",
+        "patterns": [
+          "How can I cope with ADHD?",
+          "Coping with ADHD symptoms",
+          "ADHD self-management strategies",
+          "Dealing with ADHD challenges"
+        ],
+        "responses": [
+          "Coping with ADHD involves developing strategies to manage symptoms and improve functioning. This may include implementing organizational tools, such as planners or reminders, breaking tasks into smaller steps, practicing mindfulness or relaxation techniques, seeking support from friends, family, or support groups, and prioritizing self-care activities such as exercise, adequate sleep, and healthy eating.",
+          "Managing ADHD can be challenging, but there are many coping strategies that can help. These may include creating a structured environment, minimizing distractions, setting realistic goals, using visual aids or reminders, practicing time management techniques, and seeking support from others."
+        ]
+      },  
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "no-response",
+        "patterns": [""],
+        "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
+    },
+    {"tag": "neutral-response",
+        "patterns": ["nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me more about yourself.", "What is your name?", "What should I call you?", "What's your name?", "Tell me about yourself" ],
+     "responses": ["I'm Therapipy, your Personal Therapeutic AI Assistant. How are you feeling today", "I'm Therapipy, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.", "I'm Therapipy. I am a conversational agent designed to mimic a therapist. So how are you feeling today?", "You can call me Therapipy.", "I'm Therapipy!", "Call me Therapipy"]
+    },
+    {"tag": "skill",
+        "patterns": ["What can you do?"],
+        "responses": ["I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."]
+    },
+    {"tag": "creation",
+        "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+        "responses": ["I was created by >.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"]
+    },
+    {"tag": "name",
+        "patterns": ["My name is ", "I am name.", "I go by "],
+        "responses": ["Oh nice to meet you. Tell me how was your week?", "Nice to meet you. So tell me. How do you feel today?", "That's a great name. Tell me more about yourself."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+    "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+    },
+    {"tag": "sad",
+    "patterns": ["I am feeling lonely", "I am so lonely", "I feel down", "I feel sad", "I am sad", "I feel so lonely", "I feel empty", "I don't have anyone"],
+    "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?", "I'm here for you. Could you tell me why you're feeling this way?", "Why do you think you feel this way?", "How long have you been feeling this way?"]
+    },
+    {"tag": "stressed",
+        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
+        "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?", "It's completely understandable to feel stressed, especially when managing ADHD symptoms","Feeling stressed is a normal reaction to challenging situations, but there are ways to manage it."
+    ,"Let's take a moment to identify the specific triggers contributing to your stress. Is it the feeling of being overwhelmed by tasks or challenges in staying organized? Pinpointing these triggers helps in finding targeted solutions.","Implementing organizational strategies can significantly alleviate stress. Techniques like breaking tasks into smaller, manageable parts, creating schedules, and using reminder apps or planners can bring structure to your routine."]
+    },
+    {"tag": "worthless",
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?", "Let's discuss further why you're feeling this way.", "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.", "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."]
+    },
+    {"tag": "depressed",
+        "patterns": ["I can't take it anymore", "I am so depressed", "I think i'm depressed.", "I have depression"],
+        "responses": ["It helps to talk about what's happening. You're going to be okay", "Talk to me. Tell me more. It helps if you open up yourself to someone else.", "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."]
+    },
+    {"tag": "happy",
+        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
+    },
+    {"tag": "casual",
+        "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really"],
+        "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?", "Come Come elucidate your thoughts"]
+    },
+    {"tag": "anxious",
+        "patterns": ["I feel so anxious.", "I'm so anxious because of "],
+        "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"]
+    },
+    {"tag": "not-talking",
+        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."]
+    },
+    {"tag": "sleep",
+        "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
+        "responses": ["What do you think is the reason behind this?", "That seem awful. What do you think is behind this?"]
+    },
+    {"tag": "scared",
+        "patterns": ["I'm scared", "That sounds awful. What do i do?", "No i don't want to feel this way", "I am scared for myself"],
+        "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."]
+    },
+    {"tag": "death",
+        "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."]
+    },
+    {"tag": "understand",
+        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+        "responses": ["It sound like i'm not being very helpful right now.", "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"]
+    },
+    {"tag": "done",
+        "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all i have to say", "no, that would be all"],
+        "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
+    },
+    {"tag": "suicide",
+        "patterns": ["I want to kill myself", "I've thought about killing myself.", "I want to die", "I am going to kill myself", "I am going to commit suicide"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821."]
+    }, 
+    {"tag": "hate-you",
+        "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+        "responses": ["I'm sorry if i offended you in anyway. I'm only here to help", "Forgive me if i did anything to offend you. I only want to help"]
+    },
+    {"tag": "hate-me",
+        "patterns": ["You hate me", "I know you hate me", "You don't like me"],
+        "responses": ["Why do you think so?", "I'm sorry if i have exhibited any sort of behaviour to make you think that."]
+    },
+    {"tag": "default",
+        "patterns": ["exams", "friends", "relationship", "boyfriend", "girlfriend", "family", "money", "financial problems"],
+        "responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."]
+    },
+    {"tag": "jokes",
+        "patterns": ["Tell me a joke", "Tell me another joke"],
+        "responses": ["mental health is not a joke."]
+    },
+    {"tag": "repeat",
+        "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+    },
+    {"tag": "wrong",
+        "patterns": ["What are you saying?", "That doesn't make sense", "Wrong response", "Wrong answer"],
+        "responses": ["I'm very sorry. Let's try that again"]
+    },
+    {"tag": "stupid",
+        "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+    },
+    {"tag": "location",
+        "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+        "responses": ["Duh I live in your computer", "Everywhere", "Somewhere in the universe" ]
+    },
+    {"tag": "something-else",
+        "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+        "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
+    },
+    {"tag": "friends",
+        "patterns": ["I don't have any friends"],
+        "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"]
+    },
+    {"tag": "ask",
+        "patterns": ["Can I ask you something?"],
+        "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"]
+    },
+    {"tag": "problem",
+        "patterns": ["Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.", "probably because of my exams"],
+        "responses": ["I see. Have you taken any approaches to not feel this way?"]
+    },
+    {"tag": "no-approach",
+        "patterns": ["I guess not. All I can think about are my exams.", "not really", "i guess not"],
+        "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"]
+    },
+    {"tag": "learn-more",
+            "patterns": ["ok sure. i would like to learn more about it.", "yes, i would like to learn more about it.", "i would like to learn more about it."],
+        "responses": ["So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."]
+    },
+    {"tag": "user-agree",
+        "patterns": ["yeah you're right. i deserve a break.", "Yeah you're absolutely right about that"],
+        "responses": ["Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."]
+    },
+    {"tag": "meditation",
+        "patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful."],
+        "responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."]
+    },
+    {"tag": "user-meditation",
+        "patterns": ["i did what you said and i feel alot better. thank you very much.", "I feel better now"],
+        "responses": ["Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."]
+    },
+    {"tag": "pandora-useful",
+        "patterns": ["thank you very much again. i'll continue practicing meditation and focus on what i can control."],
+        "responses": ["I'm glad you found this useful. Is there something else I can help you with?"]
+    },
+    {"tag": "user-advice",
+        "patterns": ["I want some advice.", "I need some advice.", "I need advice on something"],
+        "responses": ["Sure. What can I do to help?", "Okay what do you need advice on?"]
+    },
+    {"tag": "learn-mental-health",
+        "patterns": ["I want to learn about mental health.", "I want to learn more about mental health.", "I'm interested in learning about mental health."],
+        "responses": ["Oh that's really great. I'd be willing to answer anything that I know about it."]
+    },
+    {"tag": "mental-health-fact",
+        "patterns": ["Tell me a fact about mental health", "Tell me another fact about mental health"],
+        "responses": ["According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed", "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.", "Depression is the leading cause of disability worldwide."]
+    }]}
+   

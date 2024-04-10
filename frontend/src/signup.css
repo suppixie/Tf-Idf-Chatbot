@@ -1,0 +1,33 @@
+.signup-page{
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+}
+
+.signup-page h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+label{
+    margin: 1vw;
+}
+input{
+    padding: 1vh;
+    border-radius: 10px;
+}
+.input-box{
+    margin: 1.5vw;
+}
+.signup-btn{
+    cursor: pointer;
+    transform: translate(20vh);
+    padding: 1.5vh;
+    border-radius: 5px;
+    background-color: aquamarine;
+    vertical-align: middle;
+    text-align: center;
+}
+.signup-page p{
+    text-align: center;
+}

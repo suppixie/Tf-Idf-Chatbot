@@ -85,7 +85,7 @@ def chatbot_response(query, intents_data, tf_idf):
 def fetch_results(query):
     
     # Load data
-    filename = "C://Users//Srikumar//OneDrive//Desktop//New folder//Tf-Idf-Chatbot//backend//intents.json"
+    filename = "C://Users//mamth//Documents//Tf-Idf-Chatbot//backend//intents.json"
     data = load_dataset(filename)
 
     # Preprocess documents
@@ -140,5 +140,5 @@ def fetch_results_gpt(query):
     convo = model.start_chat(history=[
     ])
 
-    convo.send_message("Query:"+query + "Only Answer in the context of woxsen university or else refuse to answer.")
+    convo.send_message("Query:"+query )
     return(convo.last.text)
